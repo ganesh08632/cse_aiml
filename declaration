@@ -1,7 +1,7 @@
 pipeline{
 	agent any
 		stages{
-			stages('checks validate'){
+			stages('validate'){
 				steps{
 					echo 'I am validating the code'
 				         }
